@@ -7,7 +7,6 @@
 #include <sodium.h>
 
 namespace cvalt {
-std::string &password.same();
 
 bool deriveKey(const std::string &password, const unsigned char *salt,
                std::size_t saltLen, unsigned long long opslimit,
